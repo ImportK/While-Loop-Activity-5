@@ -14,7 +14,7 @@ function guessNumber() {
         } else if (userGuess > correctNumber) {
             alert(userGuess + " is too high!");
         } else if (userGuess === correctNumber) {
-            alert(userGuess + " is the correct number!");
+            alert("You guessed the correct number " + userGuess + "!");
         } else {
             alert("Please enter a valid number.");
         }    
